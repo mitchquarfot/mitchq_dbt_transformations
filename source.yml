@@ -1,0 +1,6 @@
+version: 2
+    
+sources:
+  - name: fivetran_log_mq
+    tables:
+      - name: connector
