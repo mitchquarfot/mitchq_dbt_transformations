@@ -36,3 +36,11 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+vars: 
+  fivetran_log:
+    fivetran_log_database: MITCH
+    fivetran_log_schema: FIVETRAN_LOG_MQ
+
+    fivetran_log_using_transformations: false
+    fivetran_log_using_triggers: false
