@@ -4,4 +4,4 @@ jobs:
   schedule: 15 8 * * * 
   steps:
     - name: run fivetran log
-    - command dvbt run --models fivetran_log
+    - command dbt run --models fivetran_log
