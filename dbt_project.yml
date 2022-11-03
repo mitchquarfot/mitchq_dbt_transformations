@@ -47,3 +47,6 @@ vars:
   facebook_ads:
     facebook_ads_database: MITCH
     faceboook_ads_schema: FACEBOOK_ADS_MQ_TEST
+  facebook_ads_source:
+    facebook_ads_source_database: MITCH
+    facebook_ads_source_schema: FACEBOOK_ADS_MQ_TEST
