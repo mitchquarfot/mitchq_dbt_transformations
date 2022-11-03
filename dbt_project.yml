@@ -55,3 +55,11 @@ vars:
 
     # facebook_ads_source_using_transformations: false
     # facebook_ads_source_using_triggers: false
+
+  google_ads:
+    google_ads_database: MITCH
+    google_ads_schema: ADWORDS_MQ_TEST
+
+  google_ads_source:
+    google_ads_source_database: MITCH
+    google_ads_source_schema: ADWORDS_MQ_TEST
