@@ -45,16 +45,16 @@ vars:
     fivetran_log_using_transformations: false
     fivetran_log_using_triggers: false
   
-  facebook_ads:
-    facebook_ads_database: MITCH
-    faceboook_ads_schema: FACEBOOK_ADS_MQ_TEST
+  # facebook_ads:
+  #   facebook_ads_database: MITCH
+  #   faceboook_ads_schema: FACEBOOK_ADS_MQ_TEST
     
-    facebook_ads_using_transformations: false
-    facebook_ads_using_triggers: false
+  #   facebook_ads_using_transformations: false
+  #   facebook_ads_using_triggers: false
  
   facebook_ads_source:
     facebook_ads_source_database: MITCH
     facebook_ads_source_schema: FACEBOOK_ADS_MQ_TEST
 
-    facebook_ads_source_using_transformations: false
-    facebook_ads_source_using_triggers: false
+    # facebook_ads_source_using_transformations: false
+    # facebook_ads_source_using_triggers: false
