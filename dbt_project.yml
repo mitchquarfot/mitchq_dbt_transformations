@@ -33,9 +33,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   mitchq_dbt_transformations:
-    # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
 
 vars: 
   fivetran_log:
@@ -45,12 +42,12 @@ vars:
     fivetran_log_using_transformations: false
     fivetran_log_using_triggers: false
   
-  # facebook_ads:
-  #   facebook_ads_database: MITCH
-  #   faceboook_ads_schema: FACEBOOK_ADS_MQ_TEST
+  facebook_ads:
+    facebook_ads_database: MITCH
+    faceboook_ads_schema: FACEBOOK_ADS_MQ_TEST
     
-  #   facebook_ads_using_transformations: false
-  #   facebook_ads_using_triggers: false
+    # facebook_ads_using_transformations: false
+    # facebook_ads_using_triggers: false
  
   facebook_ads_source:
     facebook_ads_source_database: MITCH

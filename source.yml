@@ -4,3 +4,5 @@ sources:
   - name: fivetran_log_mq
     tables:
       - name: connector
+  - name: facebook_ads_mq
+    tables: 
