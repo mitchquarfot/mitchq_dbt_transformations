@@ -6,3 +6,8 @@ sources:
       - name: connector
   - name: facebook_ads_mq
     tables: 
+  - name: gcp_sqlserver_teleport_demo_movies
+    tables: 
+      - name: movies
+      - name: movie_cast
+      - name: person
