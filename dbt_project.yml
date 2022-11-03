@@ -44,3 +44,5 @@ vars:
 
     fivetran_log_using_transformations: false
     fivetran_log_using_triggers: false
+  facebook_ads:
+    faceboook_ads_schema: FACEBOOK_ADS_MQ_TEST
