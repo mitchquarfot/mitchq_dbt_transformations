@@ -47,3 +47,6 @@ vars:
 
   google_ads_source:
     google_ads_schema: ADWORDS_MQ_TEST
+
+  linkedin_source:
+    linkedin_source_schema: LINKEDIN_ADS
