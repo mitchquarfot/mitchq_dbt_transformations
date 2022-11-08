@@ -53,6 +53,3 @@ vars:
 
   netsuite_source:
     netsuite_schema: NETSUITE_SUITEANALYTICS_MQ_TEST
-
-  netsuite:
-    netsuite_schema: NETSUITE_SUITEANALYTICS_MQ_TEST
