@@ -52,7 +52,7 @@ vars:
     linkedin_source_schema: LINKEDIN_ADS
 
   netsuite_source:
-    netsuite_source_schema: NETSUITE_SUITEANALYTICS_MQ_TEST
+    netsuite_schema: NETSUITE_SUITEANALYTICS_MQ_TEST
 
   netsuite:
     netsuite_schema: NETSUITE_SUITEANALYTICS_MQ_TEST
