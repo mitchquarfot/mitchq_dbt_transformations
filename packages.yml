@@ -3,3 +3,7 @@ packages:
     version: 0.6.3
   - package: fivetran/ad_reporting
     version: 1.0.1
+  - package: fivetran/netsuite
+    version: 0.6.2
+  - package: fivetran/netsuite_source
+    version: 0.5.1
