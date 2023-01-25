@@ -1,4 +1,6 @@
 packages:
+  - package: fivetran/fivetran_utils
+    version: 0.4.1
   - package: fivetran/fivetran_log
     version: 0.6.3
   - package: fivetran/ad_reporting
