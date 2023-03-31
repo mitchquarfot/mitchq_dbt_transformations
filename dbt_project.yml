@@ -56,3 +56,6 @@ vars:
   
   asana_source:
     asana_schema: ASANA_MQ_DEMO
+  
+  salesforce_source:
+    salesforce_schema: SALESFORCE_MQ_TEST
